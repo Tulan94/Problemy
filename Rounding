@@ -1,0 +1,32 @@
+package main;
+
+import java.math.BigDecimal;
+import java.math.RoundingMode;
+
+public class Solution {
+    public static void main(String[] args) {
+
+
+        int[] tab01 = new int[]{12, 11, 400};
+        int[] tab02 = new int[]{8, -3, 5};
+
+        int a = 3;
+
+        for (int x = 0; x < a; x++) {
+            double z = tab01[x]/tab02[x];
+            System.out.println(z);}
+
+        
+
+
+        if ( double y = 0;y++;a[y] > 0){
+            System.out.format("%.0f%n", a);
+        }
+        else{
+            BigDecimal rawValue = new BigDecimal(a);
+            BigDecimal value = rawValue.setScale(0, RoundingMode.DOWN);
+            System.out.println(value);
+
+        }
+    }
+}
