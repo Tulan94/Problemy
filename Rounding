@@ -7,15 +7,14 @@ public class Solution {
     public static void main(String[] args) {
 
 
-            double[] tab01 = new double []{12, 11, 400};
-        int[] tab02 = new int[]{8, -3, 5};
-        int[] tabd = new int[3];
+                   double[] tab01 = new double []{12, 11, 400};
+        double[] tab02 = new double []{8, -3, 5};
 
-        int a = tabd.length;
+        int a = tab01.length;
 
         for (int x = 0; x < a; x++) {
             double taby = tab01 [x]/tab02[x];
-            System.out.println(taby);}}}
+            System.out.println(taby);}
 
         
 // dalej jest nie ważne jak na razie, potrzebne do zaookrąglenia
