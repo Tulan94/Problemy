@@ -7,7 +7,7 @@ public class Solution {
     public static void main(String[] args) {
 
 
-        int[] tab01 = new int[]{12, 11, 400};
+            double[] tab01 = new double []{12, 11, 400};
         int[] tab02 = new int[]{8, -3, 5};
         int[] tabd = new int[3];
 
