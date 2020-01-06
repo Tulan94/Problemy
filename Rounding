@@ -7,26 +7,23 @@ public class Solution {
     public static void main(String[] args) {
 
 
-                   double[] tab01 = new double []{12, 11, 400};
+        double[] tab01 = new double []{12, 11, 400};
         double[] tab02 = new double []{8, -3, 5};
 
         int a = tab01.length;
 
         for (int x = 0; x < a; x++) {
-            double taby = tab01 [x]/tab02[x];
-            System.out.println(taby);}
 
-        
-// dalej jest nie ważne jak na razie, potrzebne do zaookrąglenia
+            double u = (tab01 [x]/tab02[x]);
 
-        if ( double y = 0;y++;a[y] > 0){
-            System.out.format("%.0f%n", a);
+            if (u > 0){
+                System.out.format("%.0f%n", u);
+            }
+        else if(u < 0){
+                BigDecimal rawValue = new BigDecimal(u);
+                BigDecimal value = rawValue.setScale(0, RoundingMode.DOWN);
+                System.out.println(value);
+            }
         }
-        else{
-            BigDecimal rawValue = new BigDecimal(a);
-            BigDecimal value = rawValue.setScale(0, RoundingMode.DOWN);
-            System.out.println(value);
-
         }
     }
-}
