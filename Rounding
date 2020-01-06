@@ -9,15 +9,16 @@ public class Solution {
 
         int[] tab01 = new int[]{12, 11, 400};
         int[] tab02 = new int[]{8, -3, 5};
+        int[] tabd = new int[3];
 
-        int a = 3;
+        int a = tabd.length;
 
         for (int x = 0; x < a; x++) {
-            double z = tab01[x]/tab02[x];
-            System.out.println(z);}
+            double taby = tab01 [x]/tab02[x];
+            System.out.println(taby);}}}
 
         
-
+// dalej jest nie ważne jak na razie, potrzebne do zaookrąglenia
 
         if ( double y = 0;y++;a[y] > 0){
             System.out.format("%.0f%n", a);
