@@ -1,0 +1,38 @@
+
+import java.util.Scanner;
+public class Medianofthree {
+    public static void main(String[] args)
+    {
+        Scanner reader = new Scanner(System.in);
+        System.out.println("How many sentences?: ");
+        int n = reader.nextInt();
+
+        Scanner in = new Scanner(System.in);
+
+        System.out.print("Enter a sentence :");
+        for(int x = 0; x < n; ++x) {
+            String[] line = in.nextLine().split("[ ]");
+            int a = Integer.parseInt(line[0]);
+            int b = Integer.parseInt(line[1]);
+            int c = Integer.parseInt(line[2]);
+            int median = a > b ? (a < c ? a : (b> c ? b : c)) : (b < c ? b : (a > c ? a : c));
+            System.out.println(median + " ");
+            double zz =
+            }
+
+        }
+    }
+
+//Author's notes on this problem
+ //       To select the middle of three elements A, B and C let us try to reorder them:
+
+//        if A > B swap A with B
+//        if B > C swap B with C
+ //       if A > B swap A with B
+ //       For swapping X and Y use the temporary variable T in three assignment, for example:
+
+ //       T = X; X = Y; Y = T
+ //       At the 2nd step the largest element of three would be moved to C.
+ //       After 3rd step the smallest of the remaining two is moved to A. Therefore B contains the middle element.
+
+
